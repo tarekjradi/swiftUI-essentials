@@ -8,7 +8,6 @@ A view showing a list of landmarks.
 import SwiftUI
 
 struct LandmarkList: View {
-    @State var isEditMode: EditMode = .inactive
 
     var body: some View {
         NavigationView {
@@ -16,16 +15,9 @@ struct LandmarkList: View {
                 NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
                     LandmarkRow(landmark: landmark)
                 }
-                if (self.isEditMode == .active) {
-                    Text("now is edit mode")
-                } else  {
-                    Text("now is no edit mode")
-                }
-
             }
             .navigationBarItems(trailing: EditButton())
             .navigationBarTitle(Text("Landmarks"))
-            .environment(\.editMode, self.$isEditMode)
         }
     }
 }
