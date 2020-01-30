@@ -10,11 +10,12 @@ import SwiftUI
 
 struct SecondView: View {
     @Binding var pushed: Bool
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     var body: some View {
         Text("Hello, World!")
             .navigationBarBackButtonHidden(true)
             .navigationBarItems(leading: BackButton(label: "Back") {
-                self.pushed = false
+                self.presentationMode.wrappedValue.dismiss()
             })
     }
 }
