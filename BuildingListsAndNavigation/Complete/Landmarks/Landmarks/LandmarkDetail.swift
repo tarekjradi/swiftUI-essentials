@@ -6,13 +6,11 @@ A view showing the details for a landmark.
 */
 
 import SwiftUI
-import Combine
 
 struct LandmarkDetail: View {
     var landmark: Landmark
 
     var body: some View {
-        
         VStack {
             MapView(coordinate: landmark.locationCoordinate)
                 .edgesIgnoringSafeArea(.top)
@@ -33,13 +31,12 @@ struct LandmarkDetail: View {
                     Text(landmark.state)
                         .font(.subheadline)
                 }
-                .padding(.bottom, 50)
             }
             .padding()
 
             Spacer()
         }
-        .navigationBarTitle(Text(verbatim: landmark.name), displayMode: .inline)
+        .navigationBarTitle(Text(landmark.name), displayMode: .inline)
     }
 }
 
