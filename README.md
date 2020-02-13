@@ -1,4 +1,4 @@
-# SwiftUI
+# SwiftUI Essentials
 
 A retrospective embeded of the [SwiftUI Essentials] chapters writed by Apple Corp.
 
