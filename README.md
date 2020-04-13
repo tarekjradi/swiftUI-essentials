@@ -22,6 +22,13 @@ In the Landmarks app, a user can flag their favorite places, and filter the list
 
 [Handling User Input]
 
+# Drawing and Animations
+
+### Drawing Paths and Shapes
+
+Users receive a badge whenever they visit a landmark in their list. Of course, for a user to receive a badge, you’ll need to create one. This tutorial takes you through the process of creating a badge by combining paths and shapes, which you then overlay with another shape that represents the location.
+
+If you want to create multiple badges for different kinds of landmarks, try experimenting with the overlaid symbol, varying the amount of repetition, or changing the various angles and scales.
 
 [SwiftUI Essentials]: <https://developer.apple.com/tutorials/swiftui>
 [Creating and Combining Views]: <https://developer.apple.com/tutorials/swiftui/creating-and-combining-views>
