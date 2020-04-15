@@ -30,13 +30,19 @@ Users receive a badge whenever they visit a landmark in their list. Of course, f
 
 If you want to create multiple badges for different kinds of landmarks, try experimenting with the overlaid symbol, varying the amount of repetition, or changing the various angles and scales.
 
+[Drawing Paths and Shapes]
+
 ### Animating Views And Transitions
 
 When using SwiftUI, you can individually animate changes to views, or to a view’s state, no matter where the effects are. SwiftUI handles all the complexity of these combined, overlapping, and interruptible animations for you.
 
 In this tutorial, you’ll animate a view that contains a graph for tracking the hikes a user takes while using the Landmarks app. Using the animation(_:) modifier, you’ll see just how easy it is to animate a view.
 
+[Animating Views And Transitions]
+
 [SwiftUI Essentials]: <https://developer.apple.com/tutorials/swiftui>
 [Creating and Combining Views]: <https://developer.apple.com/tutorials/swiftui/creating-and-combining-views>
 [Building Lists and Navigation]: <https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation>
 [Handling User Input]: <https://developer.apple.com/tutorials/swiftui/handling-user-input>
+[Drawing Paths and Shapes]: <https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes>
+[Animating Views And Transitions]: <https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions>
