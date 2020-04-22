@@ -40,6 +40,11 @@ In this tutorial, you’ll animate a view that contains a graph for tracking the
 
 [Animating Views And Transitions]
 
+# App Design and Layout
+
+### Composing Complex Interfaces
+### Working with UI Controls
+
 [SwiftUI Essentials]: <https://developer.apple.com/tutorials/swiftui>
 [Creating and Combining Views]: <https://developer.apple.com/tutorials/swiftui/creating-and-combining-views>
 [Building Lists and Navigation]: <https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation>
