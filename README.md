@@ -40,10 +40,15 @@ In this tutorial, you’ll animate a view that contains a graph for tracking the
 
 [Animating Views And Transitions]
 
+The home screen for Landmarks shows a scrolling list of categories, with horizontally scrolling landmarks within each category. As you build this primary navigation, you’ll explore how composed views can adapt to different device sizes and orientations.
+
 # App Design and Layout
 
 ### Composing Complex Interfaces
-### Working with UI Controls
+
+The home screen for Landmarks shows a scrolling list of categories, with horizontally scrolling landmarks within each category. As you build this primary navigation, you’ll explore how composed views can adapt to different device sizes and orientations.
+
+[Composing Complex Interfaces]
 
 [SwiftUI Essentials]: <https://developer.apple.com/tutorials/swiftui>
 [Creating and Combining Views]: <https://developer.apple.com/tutorials/swiftui/creating-and-combining-views>
@@ -51,3 +56,4 @@ In this tutorial, you’ll animate a view that contains a graph for tracking the
 [Handling User Input]: <https://developer.apple.com/tutorials/swiftui/handling-user-input>
 [Drawing Paths and Shapes]: <https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes>
 [Animating Views And Transitions]: <https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions>
+[Composing Complex Interfaces]: <https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces>
